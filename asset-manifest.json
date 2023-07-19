@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Khadija-s-Portfolio/static/css/main.a4535c80.css",
+    "main.js": "/Khadija-s-Portfolio/static/js/main.f77b3aa7.js",
+    "static/media/avatar.svg": "/Khadija-s-Portfolio/static/media/avatar.6acdd0f348322ba06d8275de5dd8ee85.svg",
+    "static/media/portfolio-img2.png": "/Khadija-s-Portfolio/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
+    "static/media/portfolio-img3.png": "/Khadija-s-Portfolio/static/media/portfolio-img3.e2bf250541b961cca642.png",
+    "static/media/site-bg.jpg": "/Khadija-s-Portfolio/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/portfolio-img1.png": "/Khadija-s-Portfolio/static/media/portfolio-img1.65b23e5c313b18600f24.png",
+    "static/media/services.png": "/Khadija-s-Portfolio/static/media/services.8e66d4fbbd95de45b8db.png",
+    "static/media/about.png": "/Khadija-s-Portfolio/static/media/about.34da930ab4436bc41a33.png",
+    "static/media/Logo.png": "/Khadija-s-Portfolio/static/media/Logo.5dd1c6ac30db605ba44e.png",
+    "index.html": "/Khadija-s-Portfolio/index.html",
+    "main.a4535c80.css.map": "/Khadija-s-Portfolio/static/css/main.a4535c80.css.map",
+    "main.f77b3aa7.js.map": "/Khadija-s-Portfolio/static/js/main.f77b3aa7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4535c80.css",
+    "static/js/main.f77b3aa7.js"
+  ]
+}
