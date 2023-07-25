@@ -34,29 +34,18 @@ const About = () => {
             <p className="mb-6">
               As a passionate{" "}
               <span className="text-accent font-bold">Data Science </span>
-              master's student with a keen interest in{" "}
+              master's student, I am deeply intrigued by the field of{" "}
               <span className="text-accent font-bold">
                 Recommender Systems{" "}
               </span>
               and their potential to create impactful solutions for{" "}
               <span className="text-accent font-bold">meaningful purposes</span>
-              . Beyond academics, I enjoy developing websites, merging my
-              interests in{" "}
-              <span className="text-accent font-bold">web development </span>{" "}
-              with data science to create{" "}
+              . I am eager to improve my skills in this field and to contribute
+              to the development of{" "}
               <span className="text-accent font-bold">
-                user-friendly experiences
+                innovative solutions
               </span>
-              . Moreover, I love being an active member of the{" "}
-              <span className="text-accent font-bold">
-                {" "}
-                student association committee{" "}
-              </span>
-              , where I get to learn valuable skills in{" "}
-              <span className="text-accent font-bold">
-                team management{" "}
-              </span>and{" "}
-              <span className="text-accent font-bold">organization</span>.
+              .
             </p>
 
             {/*} <div className="flex gap-x-6 lg:gap-x-10 mb-12">
