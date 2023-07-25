@@ -38,9 +38,7 @@ const About = () => {
               <span className="text-accent font-bold">
                 Recommender Systems{" "}
               </span>
-              and their potential to create impactful solutions . My enthusiasm
-              for developing innovative data science applications stems from my
-              deep belief in using technology for{" "}
+              and their potential to create impactful solutions for{" "}
               <span className="text-accent font-bold">meaningful purposes</span>
               . Beyond academics, I enjoy developing websites, merging my
               interests in{" "}
