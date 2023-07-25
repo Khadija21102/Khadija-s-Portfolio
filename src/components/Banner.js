@@ -1,6 +1,7 @@
 import React from "react";
 
 import Image from "../assets/avatar.svg";
+import CV from "../assets/Tagemouati-Khadija-CV.pdf";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -31,9 +32,9 @@ const Banner = () => {
               <span className="text-white mr-4">I am a</span>
               <TypeAnimation
                 sequence={[
-                  "Web Developer",
+                  "Master Student at EPFL",
                   2000,
-                  "Student at EPFL",
+                  "Web Developer",
                   2000,
                   "Head of Services at AGEPoly",
                   2000,
@@ -51,8 +52,56 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-xl mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              a quod quibusdam voluptatum
+              <div class="relative overflow-x-auto">
+                <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                  <tbody>
+                    <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+                      <th
+                        scope="row"
+                        class="px-6 py-4 text-white whitespace-nowrap dark:text-white text-[26px] font-semibold"
+                      >
+                        NATIONALITY
+                      </th>
+                      <td class="border-l px-6 py-4 text-accent text-[26px] font-semibold">
+                        Moroccan
+                      </td>
+                    </tr>
+                    <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+                      <th
+                        scope="row"
+                        class="px-6 py-4 text-white whitespace-nowrap dark:text-white text-[26px] font-semibold"
+                      >
+                        AGE
+                      </th>
+                      <td class="border-l px-6 py-4  text-accent text-[26px] font-semibold">
+                        21
+                      </td>
+                    </tr>
+                    <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+                      <th
+                        scope="row"
+                        class="px-6 py-4 text-white whitespace-nowrap dark:text-white text-[26px] font-semibold"
+                      >
+                        LIVING IN
+                      </th>
+                      <td class="border-l px-6 py-4  text-accent text-[26px] font-semibold">
+                        Lausanne, Switzerland
+                      </td>
+                    </tr>
+                    <tr class="border-b dark:bg-gray-800 dark:border-gray-700">
+                      <th
+                        scope="row"
+                        class="px-6 py-4 text-white whitespace-nowrap dark:text-white text-[26px] font-semibold"
+                      >
+                        School
+                      </th>
+                      <td class="border-l px-6 py-4  text-accent text-[26px] font-semibold">
+                        EPFL
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -61,9 +110,8 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portfolio
+              <a href={CV} target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-lg btn-outline">Download CV</button>
               </a>
             </motion.div>
             {/*social icons*/}
@@ -74,10 +122,19 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
+              <a
+                href="https://github.com/Khadija21102"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaGithub className="text-2xl mr-4" />
               </a>
-              <a href="#">
+
+              <a
+                href="https://www.linkedin.com/in/khadija-tagemouati-65b369231"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin className="text-2xl" />
               </a>
             </motion.div>

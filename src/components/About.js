@@ -30,11 +30,38 @@ const About = () => {
             className="flex-1"
           >
             <h2 className="h2 text-accent">About me</h2>
-            <h3 className="h3 mb-4">
-              I am a Student at EPFL in a bachelor in communication systems
-            </h3>
-            <p className="mb-6"> Lorem ipsum ...</p>
-            <div className="flex gap-x-6 lg:gap-x-10 mb-12">
+            <h3 className="h3 mb-4">I am a Master Student at EPFL</h3>
+            <p className="mb-6">
+              As a passionate{" "}
+              <span className="text-accent font-bold">Data Science </span>
+              master's student with a keen interest in{" "}
+              <span className="text-accent font-bold">
+                Recommender Systems{" "}
+              </span>
+              and their potential to create impactful solutions . My enthusiasm
+              for developing innovative data science applications stems from my
+              deep belief in using technology for{" "}
+              <span className="text-accent font-bold">meaningful purposes</span>
+              . Beyond academics, I enjoy developing websites, merging my
+              interests in{" "}
+              <span className="text-accent font-bold">web development </span>{" "}
+              with data science to create{" "}
+              <span className="text-accent font-bold">
+                user-friendly experiences
+              </span>
+              . Moreover, I love being an active member of the{" "}
+              <span className="text-accent font-bold">
+                {" "}
+                student association committee{" "}
+              </span>
+              , where I get to learn valuable skills in{" "}
+              <span className="text-accent font-bold">
+                team management{" "}
+              </span>and{" "}
+              <span className="text-accent font-bold">organization</span>.
+            </p>
+
+            {/*} <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
                   {inView ? <CountUp start={0} end={13} duration={5} /> : null}
@@ -62,14 +89,14 @@ const About = () => {
                   <br /> Clients
                 </div>
               </div>
-            </div>
+  </div>
             <div className="flex gap-x-8 items-center">
               <motion.button className="btn btn-lg">Contact me</motion.button>
               <a href="#" className="text-gradient btn-link">
                 {" "}
                 My Portfolio
               </a>
-            </div>
+            </div>*/}
           </motion.div>
         </div>
       </div>
